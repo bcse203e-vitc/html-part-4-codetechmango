@@ -1,0 +1,39 @@
+body {
+  background: #cbcfd5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+  padding: 32px 24px 28px 24px;
+  max-width: 280px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.profile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.16);
+}
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 18px;
+  border: 4px solid #e3eaf2;
+}
+.profile-name {
+  font-size: 1.4rem;
+  margin: 0 0 6px 0;
+  color: #253858;
+}
+.profile-title {
+  color: #788499;
+  font-size: 1.05rem;
+  margin: 0;
+}
